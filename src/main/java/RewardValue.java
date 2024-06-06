@@ -18,7 +18,7 @@ public class RewardValue {
         return this.cash;
     }
 
-    private double _getCashValue(int miles) {
+    private static double _getCashValue(int miles) {
         return miles * factor;
     }
 }
